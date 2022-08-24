@@ -1,0 +1,77 @@
+html {
+  font-size: 14px;
+}
+
+.todasTarefas {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.tarefasPendentes {
+    background-color: #feecec;
+    border-right: 1px solid #e2e0e0;
+    width: 33.7vw;
+    height: 100%;
+}
+
+.textoPendente {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divTarefasPendentes {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardPendentes {
+    margin: 10px;
+    width: 15vw;
+    height: 20vh;
+    border: 1px solid purple;
+}
+
+.cardPendentes::selection{
+    box-shadow: 0em 1em 1em gray;
+}
+
+    .cardPendentes:hover {
+        box-shadow: 0em 1em 1em gray;
+    }
+
+.tarefasEmAndamento {
+    background-color: #f6fafc;
+    border-right: 1px solid #e2e0e0;
+    width: 33.7vw;
+    height: 100%;
+}
+
+.tarefasConcluidas {
+    background-color: #e7f9e9;
+    width: 33.8vw;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 45px;
+}

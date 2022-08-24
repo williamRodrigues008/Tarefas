@@ -1,0 +1,33 @@
+﻿@model HomeModel;
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="todasTarefas">
+    <div class="tarefasPendentes">
+       <div class="textoPendente" ondragover=""><h1>Pendentes</h1></div>
+       <div class="divTarefasPendentes">
+           <div class="cardPendentes" draggable="true">Tarefas Pendentes</div>
+           <div class="cardPendentes" draggable="true">Tarefas Pendentes</div>
+       </div>
+    </div>
+
+    <div class="tarefasEmAndamento">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+
+     <div class="tarefasConcluidas">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+</div>
+
+<script>
+//$(document).ready(function() {
+//    $(".divTarefasPendentes").sortable({
+//        update: function() {
+
+//        }
+//    });
+//});
+</script>
